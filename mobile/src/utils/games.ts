@@ -2,14 +2,14 @@ export const GAMES = [
   {
     id: '1',
     name: 'League of Legends',
-    ads: '4',
+    ads: '2',
     cover: require('../assets/games/game-1.png')
   },
   {
     id: '2',
-    name: 'Dota 2',
-    ads: '3',
-    cover: require('../assets/games/game-2.png')
+    name: 'Tower Fantasy',
+    ads: '0',
+    cover: require('../assets/games/game-7.jpg')
   },
   {
     id: '3',
