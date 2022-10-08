@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View } from 'react-native';
+import { TouchableOpacity, View } from 'react-native';
 import { THEME } from '../../theme';
 import { DuoInfo } from '../DuoInfo';
 
@@ -40,6 +40,9 @@ export function DuoCard({data}: Props) {
         value={data.useVoiceChannel ? 'Sim' : 'Não'}
         colorValue={data.useVoiceChannel ? THEME.COLORS.SUCCESS : THEME.COLORS.ALERT}
       />
+      <TouchableOpacity>
+        
+      </TouchableOpacity>
     </View>
   );
 }
